@@ -1,0 +1,89 @@
+@import url(http://reset5.googlecode.com/hg/reset.min.css);
+
+body {
+	font-family: arial, sans-serif; font-size: 13px;
+}
+#headerBar {
+	height: 60px; 
+	padding: 10px 12px;
+}
+nav {float: right;}
+ul { display: inline-block;}
+li{list-style-type: none;
+	display: inline-block;	
+	padding: 0 6px;
+}
+a {
+	color:#404040;
+	text-decoration: none;
+}
+a:hover {text-decoration: underline;}
+#apps
+{
+	width:17px;
+	height:17px;
+	text-decoration:none;
+	display:block;
+	background-image:url(grid.png);
+	background-position:0px 1px;
+}
+#apps:hover	{background-image:url(grid_a.png);}
+#signin {
+	height 30px; 
+	width: 70px; 
+	padding: 0 0 0 15px; 
+	display: block; 
+	position: relative; 
+	color: ;
+}
+
+section {
+	text-align: center; 
+}
+#logo {
+	clear: both; 
+	margin: 50px auto 0 auto;
+
+
+}
+#logo img {
+	height: 108px; 
+	width: 269px;
+}
+#searchfield {
+	width: 550px; 
+	height: 26px; 
+	margin: 10px;
+}
+#btnbar {
+	display: inline-block;
+}
+
+footer {
+	height: 20px; 
+	width: 100%;
+	background-color: #f4f4f4; 
+	border-top: 1px solid #e4e4e4; 
+	padding: 5px 12px; 
+	position: absolute;
+	bottom: 0px;}
+
+span {color: red;}
+
+footer a {
+	color:#404040;
+	text-decoration: none;
+	padding: 0 10px;
+	
+}
+
+
+#leftFooter {
+	float: left; 
+	margin: 0 20px;
+}
+#rightFooter {
+	float: right; 
+	margin: 0 20px;
+}
+
